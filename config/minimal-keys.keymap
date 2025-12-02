@@ -103,7 +103,7 @@
         layer_4 {
             bindings = <
 &trans            &kp LC(W)       &trans         &kp LC(LA(I))  &kp LS(LC(T))                                  &bt BT_SEL 0   &kp LA(R)     &kp LA(T)    &kp LA(F)  &kp LS(LC(Z))
-&kp LC(A)         &kp LC(SPACE)   &kp LA(SPACE)  &kp LC(Q)      &kp LC(LS(A))  &trans    &trans                &trans         &kp LEFT_ALT  &kp LC(K)    &trans     &kp TAB
+&kp LC(A)         &kp LC(SPACE)   &kp RA(SPACE)  &kp LC(Q)      &kp LC(LS(A))  &trans    &trans                &trans         &kp LEFT_ALT  &kp LC(K)    &trans     &kp TAB
 &kp LC(Z)         &kp LC(X)       &kp LC(C)      &kp LC(V)      &kp LC(K)      &trans    &kp LA(Q)             &kp LC(LA(N))  &kp LA(X)     &kp LS(TAB)  &trans     &kp UNDER
 &kp LEFT_CONTROL  &kp LEFT_SHIFT  &trans         &trans         &trans         &trans    &kp LS(LC(NUMBER_2))  &kp LC(Z)                                            &trans
             >;
