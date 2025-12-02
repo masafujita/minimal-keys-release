@@ -58,7 +58,7 @@
             bindings = <
 &kp Q             &kp W                    &kp E         &kp R       &kp T                                               &kp Y            &kp U  &kp I      &kp O    &kp P
 &kp A             &kp S                    &kp D         &kp F       &kp G        &mkp MB1       &kp TAB                 &kp H            &kp J  &kp K      &kp L    &mt LEFT_SHIFT SEMICOLON
-&kp Z             &kp X                    &kp C         &kp V       &kp B        &mkp MB2       &kp Q                   &kp N            &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp Z             &kp X                    &kp C         &kp V       &kp B        &mkp MB2       &kp Q                   &kp N            &kp M  &kp COMMA  &kp DOT  &kp LC(LS(NUMBER_2))
 &kp LEFT_CONTROL  &mt LEFT_SHIFT LEFT_GUI  &kp LEFT_ALT  &kp DELETE  &lt 4 SPACE  &lt 3 ENTER    &lt 2 LS(LC(NUMBER_1))  &lt 1 BACKSPACE                             &kp RIGHT_SHIFT
             >;
 
@@ -67,10 +67,10 @@
 
         layer_1 {
             bindings = <
-&kp ESCAPE        &kp ESCAPE      &trans  &trans    &kp PLUS                               &kp F5            &kp LS(NUMBER_7)  &kp UP_ARROW        &kp F6            &kp LS(NUMBER_2)
-&kp LS(NUMBER_1)  &trans          &trans  &kp PLUS  &trans    &kp LS(SEMICOLON)    &trans  &kp LS(NUMBER_1)  &kp LEFT_ARROW    &kp DOWN_ARROW      &kp RIGHT_ARROW   &kp LS(NUMBER_5)
-&kp LS(SLASH)     &trans          &trans  &trans    &trans    &trans               &trans  &kp LEFT_BRACE    &kp LS(NUMBER_9)  &kp RA(LEFT_ARROW)  &kp LS(NUMBER_0)  &kp LS(NUMBER_7)
-&kp LEFT_CONTROL  &kp LEFT_SHIFT  &trans  &trans    &trans    &trans               &trans  &trans                                                                    &kp RIGHT_SHIFT
+&kp ESCAPE        &kp ESCAPE      &trans  &trans    &kp PLUS                               &kp F5            &kp LS(NUMBER_7)  &kp UP_ARROW    &kp F6            &kp LS(NUMBER_2)
+&kp LS(NUMBER_1)  &trans          &trans  &kp PLUS  &trans    &kp LS(SEMICOLON)    &trans  &kp LS(NUMBER_1)  &kp LEFT_ARROW    &kp DOWN_ARROW  &kp RIGHT_ARROW   &kp LS(NUMBER_5)
+&kp LS(SLASH)     &trans          &trans  &trans    &trans    &trans               &trans  &kp LEFT_BRACE    &kp LS(NUMBER_9)  &kp SLASH       &kp LS(NUMBER_0)  &kp LS(NUMBER_7)
+&kp LEFT_CONTROL  &kp LEFT_SHIFT  &trans  &trans    &trans    &trans               &trans  &trans                                                                &kp RIGHT_SHIFT
             >;
 
             sensor-bindings = <&inc_dec_kp C_AC_SCROLL_UP C_AC_SCROLL_DOWN>;
@@ -93,7 +93,7 @@
             bindings = <
 &kp ESCAPE        &kp F6          &mt LS(LC(T)) PAGE_UP  &kp LA(R)     &mt LC(T) LA(F)                       &trans           &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp ESCAPE
 &kp LC(A)         &kp TAB         &kp PAGE_DOWN          &kp LEFT_ALT  &kp HOME         &kp LC(C)    &trans  &kp LEFT_ARROW   &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp LEFT_GUI
-&kp LC(Z)         &kp LC(X)       &kp LC(C)              &kp LC(V)     &kp END          &kp LC(V)    &trans  &kp RIGHT_ARROW  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans
+&kp LC(Z)         &kp LC(X)       &kp LC(C)              &kp LC(V)     &kp END          &kp LC(V)    &trans  &kp RIGHT_ARROW  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp RA(LEFT_ARROW)
 &kp LEFT_CONTROL  &kp LEFT_SHIFT  &trans                 &trans        &trans           &trans       &trans  &kp NUMBER_0                                               &trans
             >;
 
