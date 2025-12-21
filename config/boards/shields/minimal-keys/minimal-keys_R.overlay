@@ -49,23 +49,25 @@
     pinctrl-1 = <&spi0_sleep>;
     pinctrl-names = "default", "sleep";
     cs-gpios = <&xiao_d 7 GPIO_ACTIVE_LOW>;
-};
 
-/* ★ここが重要：既存の trackball ノードを上書きする（新規作成しない） */
-&trackball {
-    status = "okay";
-    compatible = "pixart,pmw3610";
-    spi-max-frequency = <2000000>;
+    /* ★ここで trackball ラベルを定義する */
+    trackball: pmw3610@0 {
+        status = "okay";
+        compatible = "pixart,pmw3610";
+        reg = <0>;
+        spi-max-frequency = <2000000>;
 
-    motion-gpios = <&gpio0 1 GPIO_ACTIVE_LOW>;
+        motion-gpios = <&gpio0 1 GPIO_ACTIVE_LOW>;
 
-    zephyr,axis-x = <INPUT_REL_X>;
-    zephyr,axis-y = <INPUT_REL_Y>;
+        zephyr,axis-x = <INPUT_REL_X>;
+        zephyr,axis-y = <INPUT_REL_Y>;
 
-    res-cpi = <550>;
-
-    /* もし過去設定が残っていてエラーになるなら消す */
-    /delete-property/ scroll-layers;
+        res-cpi = <550>;
+        /* 必要なら有効化（まずは全部コメント推奨） */
+        // invert-x;
+        // invert-y;
+        // smart-mode;
+    };
 };
 
  / {
