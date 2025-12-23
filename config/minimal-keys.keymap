@@ -91,7 +91,7 @@
 
         layer_3 {
             bindings = <
-&kp ESCAPE        &kp F6          &mt LS(LC(T)) PAGE_UP  &kp LA(R)     &mt LC(T) LA(F)                       &kp SLASH        &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp ESCAPE
+&kp ESCAPE        &kp LC(W)       &mt LS(LC(T)) PAGE_UP  &kp LA(R)     &mt LC(T) LA(F)                       &kp SLASH        &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp ESCAPE
 &kp LC(A)         &kp TAB         &kp PAGE_DOWN          &kp LEFT_ALT  &kp HOME         &kp LC(C)    &trans  &kp LEFT_ARROW   &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp LEFT_GUI
 &kp LC(Z)         &kp LC(X)       &kp LC(C)              &kp LC(V)     &kp END          &kp LC(V)    &trans  &kp RIGHT_ARROW  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH
 &kp LEFT_CONTROL  &kp LEFT_SHIFT  &trans                 &trans        &trans           &trans       &trans  &kp NUMBER_0                                               &trans
