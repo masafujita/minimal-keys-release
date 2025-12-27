@@ -67,7 +67,7 @@
 
         layer_1 {
             bindings = <
-&kp ESCAPE        &kp ESCAPE        &trans             &trans             &kp PLUS                               &kp F5            &kp LS(NUMBER_7)  &kp UP_ARROW    &kp F6            &kp LS(NUMBER_2)
+&kp ESCAPE        &kp ESCAPE        &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE   &kp PLUS                               &kp F5            &kp LS(NUMBER_7)  &kp UP_ARROW    &kp F6            &kp LS(NUMBER_2)
 &kp LS(NUMBER_1)  &kp EQUAL         &kp LS(SEMICOLON)  &kp PLUS           &trans    &kp LS(SEMICOLON)    &trans  &kp LS(NUMBER_1)  &kp LEFT_ARROW    &kp DOWN_ARROW  &kp RIGHT_ARROW   &kp LS(NUMBER_5)
 &kp LS(SLASH)     &kp LEFT_BRACKET  &trans             &kp RIGHT_BRACKET  &trans    &trans               &trans  &kp LEFT_BRACE    &kp LS(NUMBER_9)  &kp SLASH       &kp LS(NUMBER_0)  &kp LS(NUMBER_7)
 &kp LEFT_CONTROL  &kp LEFT_SHIFT    &trans             &trans             &trans    &trans               &trans  &trans                                                                &kp RIGHT_SHIFT
@@ -93,7 +93,7 @@
             bindings = <
 &kp ESCAPE        &kp LC(W)       &mt LS(LC(T)) PAGE_UP  &kp LA(R)     &mt LC(T) LA(F)                       &kp SLASH        &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp ESCAPE
 &kp LC(A)         &kp TAB         &kp PAGE_DOWN          &kp LEFT_ALT  &kp HOME         &kp LC(C)    &trans  &kp LEFT_ARROW   &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp LEFT_GUI
-&kp LC(Z)         &kp LC(X)       &kp LC(C)              &kp LC(V)     &kp END          &kp LC(V)    &trans  &kp RIGHT_ARROW  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH
+&kp LC(Z)         &kp LC(X)       &kp LC(C)              &kp LC(V)     &kp END          &kp LC(V)    &trans  &kp RIGHT_ARROW  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp RA(LEFT_ARROW)
 &kp LEFT_CONTROL  &kp LEFT_SHIFT  &trans                 &trans        &trans           &trans       &trans  &kp NUMBER_0                                               &trans
             >;
 
