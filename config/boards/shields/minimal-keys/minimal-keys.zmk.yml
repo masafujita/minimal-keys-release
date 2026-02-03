@@ -3,6 +3,6 @@ id: minimal-keys
 name: minimal-keys
 type: shield
 url:https://github.com/hyhy-masa/minimal-keys2.git
-requires: [seeeduino_xiao_ble]
+requires: [xiao_ble]
 features:
   - keysy
