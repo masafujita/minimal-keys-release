@@ -67,10 +67,10 @@
 
         layer_1 {
             bindings = <
-&kp ESCAPE        &kp ESCAPE        &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE   &kp PLUS                               &kp F5            &kp LS(NUMBER_7)  &kp UP_ARROW    &kp F6            &kp LS(NUMBER_2)
-&kp LS(NUMBER_1)  &kp EQUAL         &kp LS(SEMICOLON)  &kp PLUS           &trans    &kp LS(SEMICOLON)    &trans  &kp LS(NUMBER_1)  &kp LEFT_ARROW    &kp DOWN_ARROW  &kp RIGHT_ARROW   &kp LS(NUMBER_5)
-&kp LS(SLASH)     &kp LEFT_BRACKET  &trans             &kp RIGHT_BRACKET  &trans    &trans               &trans  &kp LEFT_BRACE    &kp LS(NUMBER_9)  &kp SLASH       &kp LS(NUMBER_0)  &kp LS(NUMBER_7)
-&kp LEFT_CONTROL  &kp LEFT_SHIFT    &trans             &trans             &trans    &trans               &trans  &trans                                                                &kp RIGHT_SHIFT
+&kp ESCAPE        &kp ESCAPE        &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE   &kp PLUS                                       &kp F5            &kp LS(NUMBER_7)  &kp UP_ARROW    &kp F6            &kp LS(NUMBER_2)
+&kp LS(NUMBER_1)  &kp EQUAL         &kp LS(SEMICOLON)  &kp PLUS           &kp LS(NUMBER_3)  &kp LS(SEMICOLON)    &trans  &kp LS(NUMBER_1)  &kp LEFT_ARROW    &kp DOWN_ARROW  &kp RIGHT_ARROW   &kp LS(NUMBER_5)
+&kp LS(SLASH)     &kp LEFT_BRACKET  &trans             &kp RIGHT_BRACKET  &trans            &trans               &trans  &kp LEFT_BRACE    &kp LS(NUMBER_9)  &kp SLASH       &kp LS(NUMBER_0)  &kp LS(NUMBER_7)
+&kp LEFT_CONTROL  &kp LEFT_SHIFT    &trans             &trans             &trans            &trans               &trans  &trans                                                                &kp RIGHT_SHIFT
             >;
 
             sensor-bindings = <&inc_dec_kp C_AC_SCROLL_UP C_AC_SCROLL_DOWN>;
@@ -79,8 +79,8 @@
         layer_2 {
             bindings = <
 &trans            &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)                                 &kp LG(NUMBER_5)  &trans            &trans            &trans            &kp F5
-&kp F1            &kp F2            &kp F3            &kp F4            &kp F5                &kp F6     &kp UNDERSCORE  &kp LG(NUMBER_6)  &kp LC(NUMBER_1)  &kp LC(NUMBER_2)  &kp LC(NUMBER_3)  &trans
-&kp F7            &kp F8            &kp F9            &kp F10           &kp F11               &kp F12    &kp LG(SPACE)   &kp LG(NUMBER_7)  &trans            &trans            &trans            &trans
+&kp F1            &kp F2            &kp F3            &kp F4            &kp F5                &kp F6     &kp UNDERSCORE  &kp LG(NUMBER_6)  &kp LC(NUMBER_1)  &kp LC(NUMBER_2)  &kp LC(NUMBER_3)  &kp UNDERSCORE
+&kp F7            &kp F8            &kp F9            &kp F10           &kp F11               &kp F12    &kp LG(SPACE)   &kp LG(NUMBER_7)  &kp LC(NUMBER_4)  &kp LC(N5)        &kp LC(NUMBER_6)  &trans
 &kp LEFT_CONTROL  &kp LSHFT         &trans            &trans            &kp C_AC_VIEW_TOGGLE  &trans     &trans          &kp NUMBER_0                                                            &trans
             >;
 
